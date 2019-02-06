@@ -1,3 +1,6 @@
+# jquery.overlaps.js
+
+Determine if an element overlaps/collides another, now with the ability to use the inner widths, specify an overlap tolerance percentage before the overlap is detected, and return a boolean value indicating that an overlap exists rather than the default return object.
 
 ## Arguments
 
