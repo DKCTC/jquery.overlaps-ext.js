@@ -1,8 +1,40 @@
-#No documentation yet!
-(feel free to write a bit about it)
+
+## Arguments
+
+element1.overlaps(element2,{ inner: true, pct: 5, boolean: true });
+
+element1 (jq collection) - the source element
+element2 (jq collection, node, or selector) - the target element
+inner (boolean) - use the inner width for comparison instead of the outer width
+pct - percentage of tolerance before elements are considered to be overlapping
+boolean (boolean) - return a boolean value indicating that at least one element overlaps instead of returning the default object
+
+## Return value
+
+{ targets: [raw][array of matching targets from the element1], hits: [raw][array of matching hits from the element2], overlap: [raw](true/false) }
+
+## Usage
+
+Compare element1 to element2 using the outer width (default) and return the default object with target and hits arrays, and a boolean overlap value:
+
+element1.overlaps(element2);
+
+
+Compare element1 to element2 using the inner width, and only set to true if the element overlaps by 5% of its bounds:
+
+element1.overlaps(element2,{ inner: true, pct: 5 });
+
+
+Compare element1 to element2 and return only the boolean overlap value:
+
+element1.overlaps(element2, { boolean: true });
 
 ## Download
- Get the [raw](https://raw.github.com/yckart/jquery.overlaps.js/master/jquery.overlaps.js) script, download the complete [package](https://github.com/yckart/jquery.overlaps.js/zipball/master) or fork it on [GitHub](https://github.com/yckart/jquery.overlaps.js/).
+
+Get the [raw](https://raw.github.com/yckart/jquery.overlaps.js/master/jquery.overlaps.js) script, download the complete [package](https://github.com/yckart/jquery.overlaps.js/zipball/master) or fork it on [GitHub](https://github.com/yckart/jquery.overlaps.js/).
+
+Updated dkline03 fork with extra functions:
+[GitHub](https://github.com/dkline03/jquery.overlaps.js/)
 
 ## Support
 
