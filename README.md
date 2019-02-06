@@ -36,7 +36,9 @@ element1.overlaps(element2);
 
 **Compare element1 to element2 using the inner width, and only set to true if the element overlaps by 5% of its bounds:**
 ```
-element1.overlaps(element2,{ inner: true, pct: 5 });
+element1.overlaps(element2,{ inner: true, pct: 0.05 });
+
+element1.overlaps(element2,{ inner: true, pct: '5%' });
 ```
 
 **Compare element1 to element2 and return only the boolean overlap value:**
