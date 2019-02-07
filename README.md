@@ -1,4 +1,4 @@
-# jquery.overlaps.js
+# jquery.overlaps-ext.js
 
 Determine if an element overlaps/collides another, now with the ability to use the inner widths, specify an overlap tolerance percentage before the overlap is detected, and return a boolean value indicating that an overlap exists rather than the default return object.
 
@@ -30,7 +30,7 @@ element1.overlaps(element2,{ inner: true, pct: 5, boolean: true });
  **overlap** - boolean value indicating that at least one of the elements in the collection overlaps
  
 
-## Usage
+## Usage Examples
 
 **Compare element1 to element2 using the outer width (default) and return the default object:**
 ```
@@ -49,12 +49,20 @@ element1.overlaps(element2,{ inner: true, pct: '5%' });
 element1.overlaps(element2, { boolean: true });
 ```
 
+**Compare element1 to element2 using the inner width, and only set to true if the element overlaps by 5% of its bounds and return only the boolean overlap value:**
+```
+element1.overlaps(element2,{ inner: true, pct: 0.05, boolean: true });
+
+element1.overlaps(element2,{ inner: true, pct: '5%', boolean: true });
+```
+
+
 ## Download
 
 Get the [raw](https://raw.github.com/yckart/jquery.overlaps.js/master/jquery.overlaps.js) script, download the complete [package](https://github.com/yckart/jquery.overlaps.js/zipball/master) or fork it on [GitHub](https://github.com/yckart/jquery.overlaps.js/).
 
 Updated dkline03 fork with extra functions:
-[GitHub](https://github.com/dkline03/jquery.overlaps.js/)
+[GitHub](https://github.com/dkline03/jquery.overlaps-ext.js/)
 
 ## Support
 
