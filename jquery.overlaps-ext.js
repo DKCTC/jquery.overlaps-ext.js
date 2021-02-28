@@ -1,9 +1,9 @@
-﻿/*!
+/*!
 	 * jquery.overlaps.js 0.0.2 - https://github.com/yckart/jquery.overlaps.js
-	 * Forked by dkline03 - https://github.com/dkline03/jquery.overlaps-ext.js
+	 * Forked by DKCTC - https://github.com/DKCTC/jquery.overlaps-ext.js
 	 *
 	 * Determine if an element overlaps another.
-	 * dkline03 - Modified to allow inner/outer height/width calculations, and modification of the dimensions by percentage
+	 * DKCTC - Modified to allow inner/outer height/width calculations, and modification of the dimensions by percentage
 	 *
 	 * Copyright (c) 2013 Yannick Albert (http://yckart.com)
 	 * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php).
