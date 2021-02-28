@@ -62,14 +62,14 @@ element1.overlaps(element2,{ inner: true, pct: '5%', boolean: true });
 Get the [raw](https://raw.github.com/yckart/jquery.overlaps.js/master/jquery.overlaps.js) script, download the complete [package](https://github.com/yckart/jquery.overlaps.js/zipball/master) or fork it on [GitHub](https://github.com/yckart/jquery.overlaps.js/).
 
 Updated dkline03 fork with extra functions:
-[GitHub](https://github.com/dkline03/jquery.overlaps-ext.js/)
+[GitHub](https://github.com/DKCTC/jquery.overlaps-ext.js/)
 
 ## Support
 
  [@yckart](http://twitter.com/yckart) #jquery #overlaps
  [http://yckart.com](http://yckart.com/)
 
- **Forked dkline03 version:**
+ **Forked DKCTC version:**
  
  Just submit an issue.
 
