@@ -1,4 +1,4 @@
-/*!
+	/*!
 	 * jquery.overlaps.js 0.0.2 - https://github.com/yckart/jquery.overlaps.js
 	 * Forked by DKCTC - https://github.com/DKCTC/jquery.overlaps-ext.js
 	 *
