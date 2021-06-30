@@ -4,7 +4,7 @@ Determine if an element overlaps/collides another, now with the ability to use t
 
 ## Arguments
 
-```
+```javascript
 element1.overlaps(element2,{ inner: true, pct: 5, boolean: true });
 ```
 
@@ -33,24 +33,24 @@ element1.overlaps(element2,{ inner: true, pct: 5, boolean: true });
 ## Usage Examples
 
 **Compare element1 to element2 using the outer width (default) and return the default object:**
-```
+```javascript
 element1.overlaps(element2);
 ```
 
 **Compare element1 to element2 using the inner width, and only set to true if the element overlaps by 5% of its bounds:**
-```
+```javascript
 element1.overlaps(element2,{ inner: true, pct: 0.05 });
 
 element1.overlaps(element2,{ inner: true, pct: '5%' });
 ```
 
 **Compare element1 to element2 and return only the boolean overlap value:**
-```
+```javascript
 element1.overlaps(element2, { boolean: true });
 ```
 
 **Compare element1 to element2 using the inner width, and only set to true if the element overlaps by 5% of its bounds and return only the boolean overlap value:**
-```
+```javascript
 element1.overlaps(element2,{ inner: true, pct: 0.05, boolean: true });
 
 element1.overlaps(element2,{ inner: true, pct: '5%', boolean: true });
